@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Lists and Tables</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="title">
+		<img id="img1"
+			src="logo-transparent-png.png" />
+		<h1 id="title-text">HTML-CSS Academy</h1>
+		<form action="ERROR.html">
+			<input type="text" id="search" name="search" placeholder="Search..">
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="sidebar">
+		<p class = sbar_heads>HTML</p>
+		<a href="HTML Introduction.html">Introduction</a>
+		<a href="Elements.html">Elements</a>
+		<a href="Text Elements.html">Text Elements</a>
+		<a href="Images.html">Images</a>
+		<a href="Links.html">Links</a>
+		<a href="Videos and Iframe.html">Videos</a>
+		<a class="active" href="Lists.html">Lists and Tables</a>
+		<a href="Divs and Spans.html">Divs and Spans</a>
+		<p class = sbar_heads>CSS</p>
+		<a href="CSS Introduction.html">Introduction</a>
+		<a href="Formatting Text.html">Formatting Text</a>
+		<a href="Formatting Images.html">Formatting Images</a>
+		<a href="CSS Divs and Spans.html">Using Divs and Spans with CSS</a>
+	</div>
+	<div class="content">
+		<div id="text">
+			<h2>Lists and Tables</h2>
+			<h2>Lists</h2>
+			<p>There are 2 types of lists in HTML</p>
+			<h3>An Unordered HTML List</h3>
+			<ul>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>  
+			<p>Syntax:</p>
+			<div class="center">
+				<p class="sample_code">&ltul&gt</p>
+				<p class="sample_code">&ltli&gtItem name&lt/li&gt</p>
+				<p class="sample_code">&lt/ul&gt</p>
+			</div>
+			<h3>An Ordered HTML List</h3>
+			<ol>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+			<p>Syntax:</p>
+			<div class="center">
+				<p class="sample_code">&ltol&gt</p>
+				<p class="sample_code">&ltli&gtItem name&lt/li&gt</p>
+				<p class="sample_code">&lt/ol&gt</p>
+			</div> 
+			<h3>Discription lists</h3>
+			<p>HTML also supports description lists.</p>
+			<p>A description list is a list of terms, with a description of each term.</p>
+			<dl>
+				<dt>Coffee</dt>
+				<dd>- black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>- white cold drink</dd>
+			</dl>
+			<p>Syntax:</p> 
+			<div class="center">
+				<p class="sample_code">&ltdl&gt</p>
+				<p class="sample_code">&ltdt&gtItem name&lt/dt&gt</p>
+				<p class="sample_code">&ltdd&gtItem description&lt/dd&gt</p>
+				<p class="sample_code">&lt/dl&gt</p>
+			</div>
+			<h2>Tables</h2>
+			<p>A table in HTML consists of table cells inside rows and columns.</p>
+			<p>Here is a table</p>
+			<table>
+				<tr>
+					<th>Person 1</th>
+					<th>Person 2</th>
+					<th>Person 3</th>
+				</tr>
+				<tr>
+					<td>John</td>
+					<td>Mike</td>
+					<td>Robert</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>14</td>
+					<td>10</td>
+				</tr>
+			</table>
+			<p>Here is the syntax we need to use</p>
+			<div class="center">
+			<p class="sample_code">&lttable&gt</p>
+			<p class="sample_code">&lttr&gt</p>
+			<p class="sample_code">&ltth&gtItem&lt/th&gt</p>
+			<p class="sample_code">&lt/tr&gt</p>
+			<p class="sample_code">&lttr&gt</p>
+			<p class="sample_code">&lttd&gtItem&lt/td&gt</p>
+			<p class="sample_code">&lt/tr&gt</p>
+			<p class="sample_code">&lt/table&gt</p>
+			</div>
+			<p>There are 4 different tags that we have used here</p>
+			<p>The table tag defines a table</p>
+			<p>Then the tr tag defines a row</p>
+			<p>The th and td tags define elements, i.e the columns</p>
+			<p>We have two tags because the th is also known as the heading, and can be style differently in CSS</p>
+		</div>
+	</div>
+	
+</body>
+
+</html>

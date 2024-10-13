@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Text Elements</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="title">
+		<img id="img1"
+			src="logo-transparent-png.png" />
+		<h1 id="title-text">HTML-CSS Academy</h1>
+		<form action="ERROR.html">
+			<input type="text" id="search" name="search" placeholder="Search..">
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="sidebar">
+		<p class = sbar_heads>HTML</p>
+		<a href="HTML Introduction.html">Introduction</a>
+		<a href="Elements.html">Elements</a>
+		<a class="active" href="Text Elements.html">Text Elements</a>
+		<a href="Images.html">Images</a>
+		<a href="Links.html">Links</a>
+		<a href="Videos and Iframe.html">Videos</a>
+		<a href="Lists.html">Lists and Tables</a>
+		<a href="Divs and Spans.html">Divs and Spans</a>
+		<p class = sbar_heads>CSS</p>
+		<a href="CSS Introduction.html">Introduction</a>
+		<a href="Formatting Text.html">Formatting Text</a>
+		<a href="Formatting Images.html">Formatting Images</a>
+		<a href="CSS Divs and Spans.html">Using Divs and Spans with CSS</a>
+	</div>
+	<div class="content">
+		<div id="text">
+			<h2>Text Elements</h2>
+			<h2>Headings</h2>
+			<p>In HTML we have 6 types of headings</p>
+			<p>These headings start at h1 and continue to get smaller till h6</p>
+			<p>Here are the headings</p>
+			<div class="basic">
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+			</div>
+			<h3>Headings are IMPORTANT</h3>
+			<p>Search engines use the headings to index the structure and content of your web pages.</p>
+			<p>Users often skim a page by its headings. It is important to use headings to show the document structure.</p>
+			<p></p>
+			<p>We can change the size of headings if we wish by using CSS</p>
+			<h2>Paragraps and the &ltp&gt tag</h2>
+			<p>We can define a paragraph using the &ltp&gt tag.</p>
+			<p>A new paragraph tag will always start on a new line.</p>
+			<div class="center">
+				<p class="sample_code">&ltp&gtThis is a sample paragraph&lt/p&gt</p>
+				<p class="sample_code">&ltp&gtThis is a new line&lt/p&gt</p>
+			</div>
+			<p>This is the result</p>
+			<div class="center">
+				<p>This is a sample paragraph</p>
+				<p>This is a new line</p>
+			</div>
+			<p>We cannot add multiple lines of text or multiple spaces into one &ltp&gt tag, the browser will condense all spaces to one space and all lines to one line</p>
+			<p>To solve this we can use the &ltpre&gt tag. This tag, also known as the preformatted tag lets us keep the formatting of our text</p>
+			<p>Inside the pre tag we can write with whatever formatting we wish and that will be saved</p>
+			<p>Here's an example</p>
+			<pre>
+				HTML
+					CSS
+						Academy
+			</pre>
+			<h2>The <i>Horizontal Rule</i> and the <i>Line Break</i></h2>
+			<p>In HTML we have a few ways to split text.</p>
+			<p>For this we can use the &lthr&gt and &ltbr&gt tags.</p>
+			<h3>&lthr&gt</h3>
+			<p>We use the horizontal rule to create a line that splits a page</p>
+			<p>This can be used to create sections or split text</p>
+			<p>Here's an example</p>
+			<div class="center">
+				<p class="sample_code">&ltp&gtThis is some text&lt/p&gt</p>
+				<p class="sample_code">&lthr&gt</p>
+				<p class="sample_code">&ltp&gtThis is some more text&lt/p&gt</p>
+			</div>
+			<p>This is the result</p>
+			<div class="center">
+				<p>This is some text</p>
+				<hr>
+				<p>This is some more text</p>
+			</div>
+			<h3>&ltbr&gt</h3>
+			<p>We use the line break to create a break a line of text</p>
+			<p>It can be used to split longer lines of text into shorter and smaller lines</p>
+			<p>Here's an example</p>
+			<div class="center">
+				<p class="sample_code">&ltp&gtThis is&ltbr&gtsome text&lt/p&gt</p>
+			</div>
+			<p>This is the result</p>
+			<div class="center">
+				<p>This is<br>some text</p>
+			</div>
+			<p>We can later link our text elements to CSS and style them in a variety of ways</p>
+		</div>
+	</div>
+	
+</body>
+
+</html>

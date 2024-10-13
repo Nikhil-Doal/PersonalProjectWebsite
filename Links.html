@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Links</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="title">
+		<img id="img1"
+			src="logo-transparent-png.png" />
+		<h1 id="title-text">HTML-CSS Academy</h1>
+		<form action="ERROR.html">
+			<input type="text" id="search" name="search" placeholder="Search..">
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="sidebar">
+		<p class = sbar_heads>HTML</p>
+		<a href="HTML Introduction.html">Introduction</a>
+		<a href="Elements.html">Elements</a>
+		<a href="Text Elements.html">Text Elements</a>
+		<a href="Images.html">Images</a>
+		<a class="active" href="Links.html">Links</a>
+		<a href="Videos and Iframe.html">Videos</a>
+		<a href="Lists.html">Lists and Tables</a>
+		<a href="Divs and Spans.html">Divs and Spans</a>
+		<p class = sbar_heads>CSS</p>
+		<a href="CSS Introduction.html">Introduction</a>
+		<a href="Formatting Text.html">Formatting Text</a>
+		<a href="Formatting Images.html">Formatting Images</a>
+		<a href="CSS Divs and Spans.html">Using Divs and Spans with CSS</a>
+	</div>
+	<div class="content">
+		<div id="text">
+			<h2>Links</h2>
+			<p>Let's now move onto links.</p>
+			<p>Links are very important in HTML as they allow us to create multiple pages and interconnect webpages</p>
+			<p>When you hover over a link, the mouse will become a little hand</p>
+			<h3>Syntax</h3>
+			<p>Here is the general syntax for a link</p>
+			<div class="center">
+				<p class="sample_code">&lta  href="url"&gt<i>link text</i>&lt/a&gt</p>
+			</div>
+			<p>By default, links will appear as follows in all browsers:</p>
+			<ul>
+				<li>An unvisited link is underlined and blue</li>
+				<li>A visited link is underlined and purple</li>
+				<li>An active link is underlined and red</li>
+			</ul>
+			<h2>The target Attribute</h2>
+			<p>If you don't specify a target for a link, the linked page will be shown in the same browser window. However, if you want to display the linked page in a different window, you need to specify a different target.</p>
+			<p>Here is the syntax</p>
+			<div class="center">
+				<p class="sample_code">&lta  href="url" <i>target=""</i>&gt<i>link text</i>&lt/a&gt</p>
+			</div>
+			<ul>
+				<li>_self - Default. Opens the document in the same window/tab as it was clicked</li>
+				<li>_blank - Opens the document in a new window or tab</li>
+				<li>_parent - Opens the document in the parent frame</li>
+				<li>_top - Opens the document in the full body of the window</li>
+			</ul>
+			<h2>Using other things as links</h2>
+			<p>We can use many other things as links as well</p>
+			<p>For example, images and buttons can be used as links</p>
+			<p>Images</p>
+			<div class="center"><p class="sample_code">&lta href=""&gt&ltimg src=""&gt&lt/a&gt</p></div>
+			<p>We can do similar things with buttons, but for that we will need to know some JavaScript</p>
+			<p>We can also use links to mail people</p>
+			<p>Here is the syntax</p>
+			<div class="center"><p class="sample_code">&lta href="mailto:someone@example.com"&gtSend email&lt/a&gt</p></div>
+			<p>This will allow us to email someone by clciking the link</p>
+			<h2>The Title attribute</h2>
+			<p>This is what someone will see when they hover over the link</p>
+			<a href="" title="Try hovering over this link">Try hovering over this link</a>
+			<p>This is the syntax</p>
+			<div class="center"><p class="sample_code">&lta href="" title=""&gtSample text&lt/a&gt</p></div>
+		</div>
+	</div>
+	
+</body>
+
+</html>

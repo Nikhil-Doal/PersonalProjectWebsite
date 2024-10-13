@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Videos</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="title">
+		<img id="img1"
+			src="logo-transparent-png.png" />
+		<h1 id="title-text">HTML-CSS Academy</h1>
+		<form action="ERROR.html">
+			<input type="text" id="search" name="search" placeholder="Search..">
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="sidebar">
+		<p class = sbar_heads>HTML</p>
+		<a href="HTML Introduction.html">Introduction</a>
+		<a href="Elements.html">Elements</a>
+		<a href="Text Elements.html">Text Elements</a>
+		<a href="Images.html">Images</a>
+		<a href="Links.html">Links</a>
+		<a class="active" href="Videos and Iframe.html">Videos</a>
+		<a href="Lists.html">Lists and Tables</a>
+		<a href="Divs and Spans.html">Divs and Spans</a>
+		<p class = sbar_heads>CSS</p>
+		<a href="CSS Introduction.html">Introduction</a>
+		<a href="Formatting Text.html">Formatting Text</a>
+		<a href="Formatting Images.html">Formatting Images</a>
+		<a href="CSS Divs and Spans.html">Using Divs and Spans with CSS</a>
+	</div>
+	<div class="content">
+		<div id="text">
+			<h2>Videos</h2>
+			<video width="500px" height="250px" controls autoplay muted>
+				<source src="C:\Users\nikhi\Desktop\Learn Html\HTML\videoplayback.mp4">
+				Video
+			</video>
+			<p>Videos can be a great way to make your website more interactive</p>
+			<p>To add a video to your webpage, you need to use the video tag</p>
+			<p>Heres how it works</p>
+			<div class="center">
+				<p class="sample_code">&ltvideo width="320" height="240" controls autoplay muted&gt</p>
+				<p class="sample_code">&ltsource src="movie.mp4" type=""&gt</p>
+				<p class="sample_code">Fallback text</p>
+				<p class="sample_code">&lt/video&gt</p>
+			</div>
+			<p>Fallback text is necessary in case the video does not play. It is like alt text.</p>
+			<h2>HTML Video Formats</h2>
+				<p>There are three supported video formats: MP4, WebM, and Ogg. The browser support for the different formats is:</p>
+				<table>
+					<tr>
+					<th style="width:25%">Browser</th>
+					<th style="width:25%">MP4</th>
+					<th style="width:25%">WebM</th>
+					<th style="width:25%">Ogg</th>
+					</tr>
+					<tr>
+					<td>Edge</td>
+					<td>YES</td>
+					<td>YES</td>
+					<td>YES</td>
+					</tr>
+					<tr>
+					<td>Chrome</td>
+					<td>YES</td>
+					<td>YES</td>
+					<td>YES</td>
+					</tr>
+					<tr>
+					<td>Firefox</td>
+					<td>YES</td>
+					<td>YES</td>
+					<td>YES</td>
+					</tr>
+					<tr>
+					<td>Safari</td>
+					<td>YES</td>
+					<td>YES</td>
+					<td>NO</td>
+					</tr>
+					<tr>
+					<td>Opera</td>
+					<td>YES</td>
+					<td>YES</td>
+					<td>YES</td>
+					</tr>
+				</table>
+				<h2>HTML Video - Media Types</h2>
+				<table>
+					<tr>
+					<th style="width:50%">File Format</th>
+					<th style="width:50%">Media Type</th>
+					</tr>
+					<tr>
+					<td>MP4</td>
+					<td>video/mp4</td>
+					</tr>
+					<tr>
+					<td>WebM</td>
+					<td>video/webm</td>
+					</tr>
+					<tr>
+					<td>Ogg</td>
+					<td>video/ogg</td>
+					</tr>
+				</table>
+		</div>
+	</div>
+	
+</body>
+
+</html>

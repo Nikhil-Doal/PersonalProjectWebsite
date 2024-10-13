@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Elements</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="title">
+		<img id="img1"
+			src="logo-transparent-png.png" />
+		<h1 id="title-text">HTML-CSS Academy</h1>
+		<form action="ERROR.html">
+			<input type="text" id="search" name="search" placeholder="Search..">
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="sidebar">
+		<p class = sbar_heads>HTML</p>
+		<a href="HTML Introduction.html">Introduction</a>
+		<a class="active" href="Elements.html">Elements</a>
+		<a href="Text Elements.html">Text Elements</a>
+		<a href="Images.html">Images</a>
+		<a href="Links.html">Links</a>
+		<a href="Videos and Iframe.html">Videos</a>
+		<a href="Lists.html">Lists and Tables</a>
+		<a href="Divs and Spans.html">Divs and Spans</a>
+		<p class = sbar_heads>CSS</p>
+		<a href="CSS Introduction.html">Introduction</a>
+		<a href="Formatting Text.html">Formatting Text</a>
+		<a href="Formatting Images.html">Formatting Images</a>
+		<a href="CSS Divs and Spans.html">Using Divs and Spans with CSS</a>
+	</div>
+	<div class="content">
+		<div id="text">
+			<h2>Elements</h2>
+			<p>An HTML element is defined by a start tag, some content, and an end tag.</p>
+			<p>Elements are the building block of HTML</p>
+			<p>Here is a a typical HTML element</p>
+			<div class="center"><p class="sample_code">&ltelement&gtContent goes here ...&lt/element&gt</p></div>
+			<p>Elements are what we use to make code in HTML.</p>
+			<p>Different elements have different functions, these are what we will be learning about in the upcoming sections</p>
+			<h2>Nested HTML Elements</h2>
+			<p>We can nest HTML elements by putting elements inside of other elements</p>
+			<p>Here is an example. This is what we must do in each HTML document.</p>
+			
+			<pre>
+			&lt!DOCTYPE html&gt
+			&lthtml&gt
+			    &lthead&gt
+				    ...content...
+			    &lt/head&gt
+			    &ltbody&gt
+				    ...content...
+			    &lt/body&gt
+			&lt/html&gt
+			</pre>
+			
+			<p>It is very important to make sure that we end each tag that we open.</p>
+			<h2>Empty HTML elements</h2>
+			<p>There are some elements in HTML which are empty and do not need to be closed, an example of these would be the line break tag</p>
+			<p>The line break tag or &ltbr&gt is a tag which adds a line break to the content</p>
+			<p>It does not need an end tag as it starts and ends itself</p>
+			<div class="center">
+				<p class="sample_code">&ltp&gtThis is a&ltbr&gtsample line&lt/p&gt</p>
+			</div>
+			<p>This is the result</p>
+			<div class="center"><p>This is a<br>sample line</p></div>
+			<p>Elements are the fundamental part of HTML, and we will use them to understand the upcoming topics.</p>
+		</div>
+	</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Images</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="title">
+		<img id="img1"
+			src="logo-transparent-png.png" />
+		<h1 id="title-text">HTML-CSS Academy</h1>
+		<form action="ERROR.html">
+			<input type="text" id="search" name="search" placeholder="Search..">
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<div class="sidebar">
+		<p class = sbar_heads>HTML</p>
+		<a href="HTML Introduction.html">Introduction</a>
+		<a href="Elements.html">Elements</a>
+		<a href="Text Elements.html">Text Elements</a>
+		<a class="active" href="Images.html">Images</a>
+		<a href="Links.html">Links</a>
+		<a href="Videos and Iframe.html">Videos</a>
+		<a href="Lists.html">Lists and Tables</a>
+		<a href="Divs and Spans.html">Divs and Spans</a>
+		<p class = sbar_heads>CSS</p>
+		<a href="CSS Introduction.html">Introduction</a>
+		<a href="Formatting Text.html">Formatting Text</a>
+		<a href="Formatting Images.html">Formatting Images</a>
+		<a href="CSS Divs and Spans.html">Using Divs and Spans with CSS</a>
+	</div>
+	<div class="content">
+		<div id="text">
+			<h2>Images</h2>
+			<p>Images can improve the look of a website and can be very helpful</p>
+			<p>Here is an image</p>
+			<img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg" width ="1000">
+			<p>First we will learn about the Syntax of the image tag</p>
+			<h2>Syntax</h2>
+			<p>Here is the normal image tag</p>
+			<div class="center">
+				<p class="sample_code">&ltimg src="" alt="" width="" height=""&gt</p>
+			</div>
+			<p>The image tag is self-closing like the hr and br tags</p>
+			<p>The src, alt, width and height are called attributes, they are the specifications that we give to the image tag</p>
+			<h3>src</h3>
+			<p>The src attribute is the source attribute, inside of this we put the source of our image, for example the url.</p>
+			<p>We can also copy the file path of the image on our computer and put it in the source</p>
+			<p>The file name MUST go into the quotation "" marks</p>
+			<h3>alt</h3>
+			<p>The alt attribute is fallback text incase the image does not load</p>
+			<p>It is important to have an alt attribute as it helps the viewer understand what an image would have shown</p>
+			<h3>Width and Height</h3>
+			<p>We can use the width and height elements to specify the width and heigh of an image</p>
+			<p>If one of them is left blank, it is set to auto, meaning it will preserve the image's ratio</p>
+			<p>If left blank the image will take up its original size</p>
+			<h2>Commonly supported image formats</h2>
+			<table>
+				<tr>
+				<th>Abbreviation</th>
+				<th>File Format</th>
+				<th>File Extension</th>
+				</tr>
+				<tr>
+				<td>APNG</td>
+				<td>Animated Portable Network Graphics</td>
+				<td>.apng</td>
+				</tr>
+				<tr>
+				<td>GIF</td>
+				<td>Graphics Interchange Format</td>
+				<td>.gif</td>
+				</tr>
+				<tr>
+				<td>ICO</td>
+				<td>Microsoft Icon</td>
+				<td>.ico, .cur </td>
+				</tr>
+				<tr>
+				<td>JPEG</td>
+				<td>Joint Photographic Expert Group image</td>
+				<td>.jpg, .jpeg, .jfif, .pjpeg, .pjp</td>
+				</tr>
+				<tr>
+				<td>PNG</td>
+				<td>Portable Network Graphics</td>
+				<td>.png</td>
+				</tr>
+				<tr>
+				<td>SVG</td>
+				<td>Scalable Vector Graphics</td>
+				<td>.svg</td>
+				</tr>
+			</table>
+			<p>Using these formats will ensure that your wesite works in most browsers</p>
+		</div>
+	</div>
+	
+</body>
+
+</html>
